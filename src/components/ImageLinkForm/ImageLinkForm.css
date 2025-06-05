@@ -1,0 +1,10 @@
+.form {
+  width: 700px;
+  --s: 201px;
+  /* control the size*/
+  --c1: #f2e2f3;
+  --c2: #e5fbff;
+
+  background:
+    repeating-conic-gradient(var(--c1) 0 45deg, var(--c2) 0 90deg) 0/var(--s) var(--s);
+}
