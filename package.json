@@ -5,11 +5,11 @@
   "type": "module",
   "homepage": "https://tracytray1.github.io/smartbrain",
   "scripts": {
-    "start": "vite",
+    "start": "vite --host 0.0.0.0 --port $PORT",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "vite preview --host 0.0.0.0 --port $PORT",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
